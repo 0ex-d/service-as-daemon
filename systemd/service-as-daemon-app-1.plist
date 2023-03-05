@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>service-as-daemon-app-1</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/path/to/service-as-daemon/launch_app_1.sh</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/path/to/service-as-daemon</string>
+    <key>SoftResourceLimits</key>
+    <dict>
+      <key>LimitAS</key>
+      <integer>536870912</integer>
+    </dict>
+  </dict>
+</plist>
